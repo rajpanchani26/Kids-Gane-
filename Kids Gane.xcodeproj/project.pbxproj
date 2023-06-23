@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A623EF4D2A42CE9200B54E7B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623EF4C2A42CE9200B54E7B /* CollectionViewCell.swift */; };
+		A623EF4F2A42CEBD00B54E7B /* CollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623EF4E2A42CEBD00B54E7B /* CollectionViewCell4.swift */; };
+		A623EF512A42D8A100B54E7B /* CollectionViewCell5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623EF502A42D8A100B54E7B /* CollectionViewCell5.swift */; };
+		A623EF552A42D90D00B54E7B /* SelectMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623EF542A42D90D00B54E7B /* SelectMode.swift */; };
+		A623EF572A42DC0300B54E7B /* AnimalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623EF562A42DC0300B54E7B /* AnimalPage.swift */; };
+		A623EF592A42DC9500B54E7B /* FruitPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623EF582A42DC9500B54E7B /* FruitPage.swift */; };
+		A623EF5B2A42EC4900B54E7B /* CollectionViewCell6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A623EF5A2A42EC4900B54E7B /* CollectionViewCell6.swift */; };
+		A658F94E2A417FFB0044D503 /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658F94D2A417FFB0044D503 /* CollectionViewCell2.swift */; };
+		A658F9522A4184370044D503 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658F9512A4184370044D503 /* ViewController3.swift */; };
+		A658F9542A41888F0044D503 /* vegetablespage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658F9532A41888F0044D503 /* vegetablespage.swift */; };
+		A658F9562A4188DA0044D503 /* CollectionViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A658F9552A4188DA0044D503 /* CollectionViewCell3.swift */; };
 		A6CF93CF2A40215F00153664 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF93CE2A40215F00153664 /* AppDelegate.swift */; };
 		A6CF93D12A40215F00153664 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF93D02A40215F00153664 /* SceneDelegate.swift */; };
 		A6CF93D32A40215F00153664 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF93D22A40215F00153664 /* ViewController.swift */; };
 		A6CF93D62A40215F00153664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CF93D42A40215F00153664 /* Main.storyboard */; };
 		A6CF93D82A40216000153664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CF93D72A40216000153664 /* Assets.xcassets */; };
 		A6CF93DB2A40216000153664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CF93D92A40216000153664 /* LaunchScreen.storyboard */; };
+		A6CF93E52A40301600153664 /* PlayGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CF93E42A40301600153664 /* PlayGame.swift */; };
+		A6F60CEC2A45791900A7F0AE /* CollectionViewCell7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F60CEB2A45791900A7F0AE /* CollectionViewCell7.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A623EF4C2A42CE9200B54E7B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A623EF4E2A42CEBD00B54E7B /* CollectionViewCell4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4.swift; sourceTree = "<group>"; };
+		A623EF502A42D8A100B54E7B /* CollectionViewCell5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell5.swift; sourceTree = "<group>"; };
+		A623EF542A42D90D00B54E7B /* SelectMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMode.swift; sourceTree = "<group>"; };
+		A623EF562A42DC0300B54E7B /* AnimalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalPage.swift; sourceTree = "<group>"; };
+		A623EF582A42DC9500B54E7B /* FruitPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitPage.swift; sourceTree = "<group>"; };
+		A623EF5A2A42EC4900B54E7B /* CollectionViewCell6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell6.swift; sourceTree = "<group>"; };
+		A658F94D2A417FFB0044D503 /* CollectionViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		A658F9512A4184370044D503 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		A658F9532A41888F0044D503 /* vegetablespage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vegetablespage.swift; sourceTree = "<group>"; };
+		A658F9552A4188DA0044D503 /* CollectionViewCell3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell3.swift; sourceTree = "<group>"; };
 		A6CF93CB2A40215F00153664 /* Kids Gane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Gane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CF93CE2A40215F00153664 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6CF93D02A40215F00153664 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,8 @@
 		A6CF93D72A40216000153664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6CF93DA2A40216000153664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6CF93DC2A40216000153664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6CF93E42A40301600153664 /* PlayGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGame.swift; sourceTree = "<group>"; };
+		A6F60CEB2A45791900A7F0AE /* CollectionViewCell7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell7.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +84,21 @@
 			children = (
 				A6CF93CE2A40215F00153664 /* AppDelegate.swift */,
 				A6CF93D02A40215F00153664 /* SceneDelegate.swift */,
+				A658F9512A4184370044D503 /* ViewController3.swift */,
+				A623EF562A42DC0300B54E7B /* AnimalPage.swift */,
+				A658F94D2A417FFB0044D503 /* CollectionViewCell2.swift */,
 				A6CF93D22A40215F00153664 /* ViewController.swift */,
+				A623EF502A42D8A100B54E7B /* CollectionViewCell5.swift */,
+				A623EF582A42DC9500B54E7B /* FruitPage.swift */,
+				A6F60CEB2A45791900A7F0AE /* CollectionViewCell7.swift */,
+				A623EF4C2A42CE9200B54E7B /* CollectionViewCell.swift */,
 				A6CF93D42A40215F00153664 /* Main.storyboard */,
+				A623EF5A2A42EC4900B54E7B /* CollectionViewCell6.swift */,
+				A623EF542A42D90D00B54E7B /* SelectMode.swift */,
+				A623EF4E2A42CEBD00B54E7B /* CollectionViewCell4.swift */,
+				A658F9552A4188DA0044D503 /* CollectionViewCell3.swift */,
+				A658F9532A41888F0044D503 /* vegetablespage.swift */,
+				A6CF93E42A40301600153664 /* PlayGame.swift */,
 				A6CF93D72A40216000153664 /* Assets.xcassets */,
 				A6CF93D92A40216000153664 /* LaunchScreen.storyboard */,
 				A6CF93DC2A40216000153664 /* Info.plist */,
@@ -139,7 +178,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6CF93D32A40215F00153664 /* ViewController.swift in Sources */,
+				A623EF4F2A42CEBD00B54E7B /* CollectionViewCell4.swift in Sources */,
+				A6F60CEC2A45791900A7F0AE /* CollectionViewCell7.swift in Sources */,
+				A658F9522A4184370044D503 /* ViewController3.swift in Sources */,
+				A623EF572A42DC0300B54E7B /* AnimalPage.swift in Sources */,
+				A623EF4D2A42CE9200B54E7B /* CollectionViewCell.swift in Sources */,
+				A623EF552A42D90D00B54E7B /* SelectMode.swift in Sources */,
+				A623EF512A42D8A100B54E7B /* CollectionViewCell5.swift in Sources */,
+				A6CF93E52A40301600153664 /* PlayGame.swift in Sources */,
+				A658F9562A4188DA0044D503 /* CollectionViewCell3.swift in Sources */,
+				A623EF5B2A42EC4900B54E7B /* CollectionViewCell6.swift in Sources */,
+				A623EF592A42DC9500B54E7B /* FruitPage.swift in Sources */,
+				A658F94E2A417FFB0044D503 /* CollectionViewCell2.swift in Sources */,
 				A6CF93CF2A40215F00153664 /* AppDelegate.swift in Sources */,
+				A658F9542A41888F0044D503 /* vegetablespage.swift in Sources */,
 				A6CF93D12A40215F00153664 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S768AUFU5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kids Gane/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -294,6 +347,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +368,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S768AUFU5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kids Gane/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -321,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

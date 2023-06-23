@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "wolf-animal-cartoon-colored-clipart-illustration_576561-4311-removebg-preview.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
