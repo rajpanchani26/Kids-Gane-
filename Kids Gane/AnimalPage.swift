@@ -32,7 +32,7 @@ class AnimalPage: UIViewController,UICollectionViewDelegate,UICollectionViewData
         cell.img.image = img[indexPath.row]
        cell.nameLabel.text = name[indexPath.row]
         cell.layer.borderColor = UIColor.gray.cgColor
-        cell.layer.borderWidth = 2
+        cell.layer.borderWidth = 3
         cell.layer.cornerRadius = 10
         cell.layer.masksToBounds = true
         return cell

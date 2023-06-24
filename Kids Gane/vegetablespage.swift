@@ -32,7 +32,7 @@ class vegetablespage: UIViewController,UICollectionViewDelegate,UICollectionView
         cell.img.image = img[indexPath.row]
         cell.namelabel.text = name[indexPath.row]
         cell.layer.borderColor = UIColor.gray.cgColor
-        cell.layer.borderWidth = 2
+        cell.layer.borderWidth = 3
         cell.layer.cornerRadius = 10
         cell.layer.masksToBounds = true
         return cell

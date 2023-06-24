@@ -12,7 +12,7 @@ class ViewController3: UIViewController,UICollectionViewDelegate,UICollectionVie
     @IBOutlet weak var cv: UICollectionView!
     
     var img = [UIImage(named:"1"),UIImage(named:"2"),UIImage(named:"3"),UIImage(named:"4"),UIImage(named:"5"),UIImage(named:"6"),UIImage(named:"7"),UIImage(named:"8"),UIImage(named:"9"),UIImage(named:"10"),UIImage(named:"11"),UIImage(named:"12"),UIImage(named:"13"),UIImage(named:"14"),UIImage(named:"15"),UIImage(named:"16"),UIImage(named:"17"),UIImage(named:"18"),UIImage(named:"19"),UIImage(named:"20")]
-    var name = ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen","Twenty"]
+    var name = ["One","Two","Three","Four","Five","Six","Seven","Eight","Nine","Ten","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen","Twenty","Twenty-one","Twenty-Two","Twenty-Three","Twenty-Four","Twenty-Five","Twenty-Six","Twenty-Seven","Twenty-Eight","Twenty-Nine","Thirty"]
     
     var synth = AVSpeechSynthesizer()
     override func viewDidLoad() {
@@ -28,7 +28,7 @@ class ViewController3: UIViewController,UICollectionViewDelegate,UICollectionVie
         let cell = cv.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell2
         cell.img.image = img[indexPath.row]
         cell.layer.borderColor = UIColor.gray.cgColor
-        cell.layer.borderWidth = 2
+        cell.layer.borderWidth = 3
         cell.layer.cornerRadius = 10
         cell.layer.masksToBounds = true
         return cell
