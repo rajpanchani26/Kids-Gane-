@@ -15,8 +15,8 @@ class BirdPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
     @IBOutlet weak var cv: UICollectionView!
     
     var synth = AVSpeechSynthesizer()
-    var img = [UIImage(named:"b-1"),UIImage(named:"b-2"),UIImage(named:"b-3"),UIImage(named:"b-4"),UIImage(named:"b-5"),UIImage(named:"b-6"),UIImage(named:"b-7"),UIImage(named:"b-8"),UIImage(named:"b-9"),UIImage(named:"b-10"),UIImage(named:"b-11"),UIImage(named:"b-13"),UIImage(named:"b-14"),UIImage(named:"b-15"),UIImage(named:"b-16"),UIImage(named:"b-17"),UIImage(named:"b-18"),UIImage(named:"b-19"),UIImage(named:"b-20"),UIImage(named:"b-21"),UIImage(named:"b-22"),UIImage(named:"b-23"),UIImage(named:"b-24"),UIImage(named:"b-25"),UIImage(named:"b-26"),UIImage(named:"b-27"),UIImage(named:"b-28"),UIImage(named:"b-29"),UIImage(named:"b-30"),UIImage(named:"b-31"),UIImage(named:"b-32"),UIImage(named:"b-33")]
-    var name = ["Pigeon","Peacock","WoodPecker","Sparrow","Dove","Cuckoo","Rooster","Quail","Parrot","Cormorant","Hen","Owl","Vulture","Duck","Ostrich","Nightingale","Flamingo","Hawk","Swallow","Pelican","Kingfisher","Crow","Eagle","Partridge","Seagull","Magpie","Hummingbird","Raven","Swan","Pengin","Goose","Goldfinch"]
+    var img = [UIImage(named:"b-1"),UIImage(named:"b-2"),UIImage(named:"b-3"),UIImage(named:"b-4"),UIImage(named:"b-5"),UIImage(named:"b-6"),UIImage(named:"b-7"),UIImage(named:"b-8"),UIImage(named:"b-9"),UIImage(named:"b-10"),UIImage(named:"b-11"),UIImage(named:"b-13"),UIImage(named:"b-14"),UIImage(named:"b-15"),UIImage(named:"b-16"),UIImage(named:"b-17"),UIImage(named:"b-18"),UIImage(named:"b-19"),UIImage(named:"b-20"),UIImage(named:"b-21"),UIImage(named:"b-22"),UIImage(named:"b-23"),UIImage(named:"b-24"),UIImage(named:"b-25"),UIImage(named:"b-26"),UIImage(named:"b-27"),UIImage(named:"b-28"),UIImage(named:"b-29"),UIImage(named:"b-30"),UIImage(named:"b-31"),UIImage(named:"b-32"),UIImage(named:"b-33"),UIImage(named:"b-34"),UIImage(named:"b-35"),UIImage(named:"b-36"),UIImage(named:"b-37")]
+    var name = ["Pigeon","Peacock","WoodPecker","Sparrow","Dove","Cuckoo","Rooster","Quail","Parrot","Cormorant","Hen","Owl","Vulture","Duck","Ostrich","Nightingale","Flamingo","Hawk","Swallow","Pelican","Kingfisher","Crow","Eagle","Partridge","Seagull","Magpie","Hummingbird","Raven","Swan","Pengin","Goose","Goldfinch","Herring Gull","Turkey","Blue Jay","Heron"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -163,9 +163,25 @@ class BirdPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         {
             voice(voice: "Goose")
         }
-        else
+        else if indexPath.row == 31
         {
             voice(voice:"Goldfinch")
+        }
+        else if indexPath.row == 32
+        {
+            voice(voice:"Herring Gull") 
+        }
+        else if indexPath.row == 33
+        {
+            voice(voice:"Turkey")
+        }
+        else if indexPath.row == 34
+        {
+            voice(voice:"Blue Jay")
+        }
+        else
+        {
+            voice(voice:"Heron")
         }
         
     }

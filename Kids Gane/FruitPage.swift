@@ -11,8 +11,8 @@ import AVFoundation
 class FruitPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     var synth = AVSpeechSynthesizer()
-    var img = [UIImage(named:"f-1"),UIImage(named:"f-2"),UIImage(named:"f-3"),UIImage(named:"f-4"),UIImage(named:"f-5"),UIImage(named:"f-6"),UIImage(named:"f-7"),UIImage(named:"f-8"),UIImage(named:"f-9"),UIImage(named:"f-10"),UIImage(named:"f-11"),UIImage(named:"f-12"),UIImage(named:"f-13"),UIImage(named:"f-14"),UIImage(named:"f-15"),UIImage(named:"f-16"),UIImage(named:"f-17"),UIImage(named:"f-18"),UIImage(named:"f-19"),UIImage(named:"f-20"),UIImage(named:"f-21"),UIImage(named:"f-22"),UIImage(named:"f-23"),UIImage(named:"f-24"),UIImage(named:"f-25"),UIImage(named:"f-26"),UIImage(named:"f-27"),UIImage(named:"f-28"),UIImage(named:"f-29"),UIImage(named:"f-30")]
-    var name = ["Apple","Banana","Orange","Mango","Graps","Pineapple","Pomegrante","Avocado","Coconut","Papaya","Watermelon","Strawberry","Cherry","Apricot","Kiwi","Jackfruit","Peach","Pear","Tamarind","Fig","Melon","Dasmon","Guard","Lychee","Quince","Jujube","Dragonfruit","Custard Apple","Res Current","Black currant"]
+    var img = [UIImage(named:"f-1"),UIImage(named:"f-2"),UIImage(named:"f-3"),UIImage(named:"f-4"),UIImage(named:"f-5"),UIImage(named:"f-6"),UIImage(named:"f-7"),UIImage(named:"f-8"),UIImage(named:"f-9"),UIImage(named:"f-10"),UIImage(named:"f-11"),UIImage(named:"f-12"),UIImage(named:"f-13"),UIImage(named:"f-14"),UIImage(named:"f-15"),UIImage(named:"f-16"),UIImage(named:"f-17"),UIImage(named:"f-18"),UIImage(named:"f-19"),UIImage(named:"f-20"),UIImage(named:"f-21"),UIImage(named:"f-22"),UIImage(named:"f-23"),UIImage(named:"f-24"),UIImage(named:"f-25"),UIImage(named:"f-26"),UIImage(named:"f-27"),UIImage(named:"f-28"),UIImage(named:"f-29"),UIImage(named:"f-30"),UIImage(named:"f-31"),UIImage(named:"f-32")]
+    var name = ["Apple","Banana","Orange","Mango","Graps","Pineapple","Pomegrante","Avocado","Coconut","Papaya","Watermelon","Strawberry","Cherry","Apricot","Kiwi","Jackfruit","Peach","Pear","Tamarind","Fig","Melon","Dasmon","Guard","Lychee","Quince","Jujube","Dragonfruit","Custard Apple","Res Current","Black currant","Mulberry","Sapidolla"]
     
     @IBOutlet weak var cv: UICollectionView!
     
@@ -153,13 +153,17 @@ class FruitPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataS
         {
             voice(voice: "Custard Currsnt")
         }
-        else if indexPath.row == 2
+        else if indexPath.row == 28
         {
             voice(voice: "Res currant")
         }
+        else if indexPath.row == 29
+        {
+            voice(voice: "Mulberry")
+        }
         else
         {
-            voice(voice: "Black Currant")
+            voice(voice:"Sapidolla")
         }
         
         

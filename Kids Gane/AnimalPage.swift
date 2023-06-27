@@ -14,9 +14,9 @@ class AnimalPage: UIViewController,UICollectionViewDelegate,UICollectionViewData
     @IBOutlet weak var cv: UICollectionView!
     
     var synth = AVSpeechSynthesizer()
-    var img = [UIImage(named:"a-1"),UIImage(named:"a-2"),UIImage(named:"a-3"),UIImage(named:"a-4"),UIImage(named:"a-5"),UIImage(named:"a-6"),UIImage(named:"a-7"),UIImage(named:"a-8"),UIImage(named:"a-9"),UIImage(named:"a-10"),UIImage(named:"a-11"),UIImage(named:"a-12"),UIImage(named:"a-13"),UIImage(named:"a-14"),UIImage(named:"a-15"),UIImage(named:"a-16"),UIImage(named:"a-17"),UIImage(named:"a-18"),UIImage(named:"a-19"),UIImage(named:"a-20"),UIImage(named:"a-21"),UIImage(named:"a-22"),UIImage(named:"a-23"),UIImage(named:"a-24"),UIImage(named:"a-25"),UIImage(named:"a-26"),UIImage(named:"a-27"),UIImage(named:"a-28"),UIImage(named:"a-29"),UIImage(named:"a-30"),]
+    var img = [UIImage(named:"a-1"),UIImage(named:"a-2"),UIImage(named:"a-3"),UIImage(named:"a-4"),UIImage(named:"a-5"),UIImage(named:"a-6"),UIImage(named:"a-7"),UIImage(named:"a-8"),UIImage(named:"a-9"),UIImage(named:"a-10"),UIImage(named:"a-11"),UIImage(named:"a-12"),UIImage(named:"a-13"),UIImage(named:"a-14"),UIImage(named:"a-15"),UIImage(named:"a-16"),UIImage(named:"a-17"),UIImage(named:"a-18"),UIImage(named:"a-19"),UIImage(named:"a-20"),UIImage(named:"a-21"),UIImage(named:"a-22"),UIImage(named:"a-23"),UIImage(named:"a-24"),UIImage(named:"a-25"),UIImage(named:"a-26"),UIImage(named:"a-27"),UIImage(named:"a-28"),UIImage(named:"a-29"),UIImage(named:"a-30"),UIImage(named:"a-31"),UIImage(named:"a-32"),UIImage(named:"a-33"),UIImage(named:"a-34"),UIImage(named:"a-35"),UIImage(named:"a-36"),UIImage(named:"a-37"),UIImage(named:"a-38"),UIImage(named:"a-39"),UIImage(named:"a-40")]
     
-    var name = ["Zibra","Tiger","Bear","Camel","Chimpanzee","Donkey","Fox","Giraffe","Goat","Deer","Elephant","Hourse","Koala","Monkey","Panda","Lion","Rabbit","Squirrel","Snack","Turtle","Ox","Mouse","Kangaroo","Hippopotamus","Bull","Sheep","Wolf","Pig","Otter","Moose"]
+    var name = ["Zibra","Tiger","Bear","Camel","Chimpanzee","Donkey","Fox","Giraffe","Goat","Deer","Elephant","Hourse","Koala","Monkey","Panda","Lion","Rabbit","Squirrel","Snack","Turtle","Ox","Mouse","Kangaroo","Hippopotamus","Bull","Sheep","Wolf","Pig","Otter","Moose","Frog","Scropion","Bee","LadyBug","Bat","Red Dear","Rahinoceros","Wild Boar","Coyota","Wombat"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -226,14 +226,79 @@ class AnimalPage: UIViewController,UICollectionViewDelegate,UICollectionViewData
             synth.speak(myUtterance1)
             myUtterance1.rate = 0.3
         }
-        else
+        else if indexPath.row == 29
         {
             var myUtterance1 = AVSpeechUtterance(string: "Moose")
             synth.speak(myUtterance1)
             myUtterance1.rate = 0.3
         }
+        else if indexPath.row == 30
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Frog")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else if indexPath.row == 31
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Scropion")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else if indexPath.row == 32
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Bee")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else if indexPath.row == 33
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Ladybug")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else if indexPath.row == 34
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Bat")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else if indexPath.row == 35
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Red Dear")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        
+        else if indexPath.row == 36
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Rahinoceros")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else if indexPath.row == 37
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Wild Boar")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else if indexPath.row == 38
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Coyota")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+        else
+        {
+            var myUtterance1 = AVSpeechUtterance(string:"Wombat")
+            synth.speak(myUtterance1)
+            myUtterance1.rate = 0.3
+        }
+       
      
     }
+    
+    
+  
     
     
 

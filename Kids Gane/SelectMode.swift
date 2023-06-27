@@ -11,9 +11,9 @@ class SelectMode: UIViewController,UICollectionViewDelegate,UICollectionViewData
   
     @IBOutlet weak var cv: UICollectionView!
     
-    var img = [UIImage(named:"ABC"),UIImage(named:"123 1"),UIImage(named:"vegetable 1"),UIImage(named:"animal"),UIImage(named:"fruit")]
+    var img = [UIImage(named:"ABC"),UIImage(named:"123"),UIImage(named:"veg"),UIImage(named:"animal"),UIImage(named:"fruits"),UIImage(named:"bird"),UIImage(named:"shape")]
     
-     var name = ["ABC","123","VEGETABLES","ANIMALS","FRUITS"]
+     var name = ["ABC","123","VEGETABLES","ANIMALS","FRUITS","BIRDS","SHAPES"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -54,10 +54,19 @@ class SelectMode: UIViewController,UICollectionViewDelegate,UICollectionViewData
         {
             navigation3()
         }
-        else
+        else if indexPath.row == 4
         {
             navigation4()
         }
+        else if indexPath.row == 5
+        {
+            navigation5()
+        }
+        else 
+        {
+            navigation6()
+        }
+        
         
     }
     func navigation()
@@ -82,8 +91,20 @@ class SelectMode: UIViewController,UICollectionViewDelegate,UICollectionViewData
     }
     func navigation4()
     {
+        let n = storyboard?.instantiateViewController(identifier: "FruitPage") as! FruitPage
+        navigationController?.pushViewController(n, animated: true)
+    }
+    func navigation5()
+    {
+        let n = storyboard?.instantiateViewController(identifier: "BirdPage") as! BirdPage
+        navigationController?.pushViewController(n, animated: true)
+    }
+    func navigation6()
+    {
         let n = storyboard?.instantiateViewController(identifier: "ShapPage") as! ShapPage
         navigationController?.pushViewController(n, animated: true)
     }
+    
+    
 
 }

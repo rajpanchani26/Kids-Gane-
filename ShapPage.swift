@@ -12,7 +12,7 @@ class ShapPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
    
 
     @IBOutlet weak var cv: UICollectionView!
-    var img = [UIImage(named:"s-1"),UIImage(named:"s-2"),UIImage(named:"s-3"),UIImage(named:"s-4"),UIImage(named:"s-5"),UIImage(named:"s-6"),UIImage(named:"s-7"),UIImage(named:"s-8"),UIImage(named:"s-9")]
+    var img = [UIImage(named:"s-1"),UIImage(named:"s-2"),UIImage(named:"s-3"),UIImage(named:"s-4"),UIImage(named:"s-5"),UIImage(named:"s-6"),UIImage(named:"s-7"),UIImage(named:"s-8"),UIImage(named:"s-9"),UIImage(named:"s-10")]
     var synth = AVSpeechSynthesizer()
     
     override func viewDidLoad() {
@@ -69,9 +69,13 @@ class ShapPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         {
             voice(voice: "Star")
         }
-        else
+        else if indexPath.row == 8
         {
             voice(voice: "Heart")
+        }
+        else
+        {
+            voice(voice:"Diamond")
         }
         
         
