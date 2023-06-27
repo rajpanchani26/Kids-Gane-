@@ -8,16 +8,14 @@
 import UIKit
 
 class SelectMode: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
-  
+    
     @IBOutlet weak var cv: UICollectionView!
     
     var img = [UIImage(named:"ABC"),UIImage(named:"123"),UIImage(named:"veg"),UIImage(named:"animal"),UIImage(named:"fruits"),UIImage(named:"bird"),UIImage(named:"shape")]
     
-     var name = ["ABC","123","VEGETABLES","ANIMALS","FRUITS","BIRDS","SHAPES"]
+    var name = ["ABC","123","VEGETABLES","ANIMALS","FRUITS","BIRDS","SHAPES"]
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -62,7 +60,7 @@ class SelectMode: UIViewController,UICollectionViewDelegate,UICollectionViewData
         {
             navigation5()
         }
-        else 
+        else
         {
             navigation6()
         }
@@ -106,5 +104,5 @@ class SelectMode: UIViewController,UICollectionViewDelegate,UICollectionViewData
     }
     
     
-
+    
 }

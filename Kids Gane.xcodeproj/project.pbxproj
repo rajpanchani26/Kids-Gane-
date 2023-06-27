@@ -71,11 +71,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A6CF93C22A40215F00153664 = {
+		A693FEEB2A4AB91900AB74D3 /* SelectMode */ = {
+			isa = PBXGroup;
+			children = (
+				A623EF542A42D90D00B54E7B /* SelectMode.swift */,
+				A623EF502A42D8A100B54E7B /* CollectionViewCell5.swift */,
+			);
+			path = SelectMode;
+			sourceTree = "<group>";
+		};
+		A693FEEC2A4AB94900AB74D3 /* AlphabetPage */ = {
+			isa = PBXGroup;
+			children = (
+				A6CF93E42A40301600153664 /* PlayGame.swift */,
+				A623EF4C2A42CE9200B54E7B /* CollectionViewCell.swift */,
+			);
+			path = AlphabetPage;
+			sourceTree = "<group>";
+		};
+		A693FEED2A4AB97500AB74D3 /* NumaricPage */ = {
+			isa = PBXGroup;
+			children = (
+				A658F9512A4184370044D503 /* ViewController3.swift */,
+				A658F94D2A417FFB0044D503 /* CollectionViewCell2.swift */,
+			);
+			path = NumaricPage;
+			sourceTree = "<group>";
+		};
+		A693FEEE2A4AB9A600AB74D3 /* VegetablesPage */ = {
+			isa = PBXGroup;
+			children = (
+				A658F9532A41888F0044D503 /* vegetablespage.swift */,
+				A658F9552A4188DA0044D503 /* CollectionViewCell3.swift */,
+			);
+			path = VegetablesPage;
+			sourceTree = "<group>";
+		};
+		A693FEEF2A4AB9C200AB74D3 /* AnimalPage */ = {
+			isa = PBXGroup;
+			children = (
+				A623EF562A42DC0300B54E7B /* AnimalPage.swift */,
+				A623EF5A2A42EC4900B54E7B /* CollectionViewCell6.swift */,
+			);
+			path = AnimalPage;
+			sourceTree = "<group>";
+		};
+		A693FEF02A4AB9DE00AB74D3 /* FruitPage */ = {
+			isa = PBXGroup;
+			children = (
+				A623EF582A42DC9500B54E7B /* FruitPage.swift */,
+				A6F60CEB2A45791900A7F0AE /* CollectionViewCell7.swift */,
+			);
+			path = FruitPage;
+			sourceTree = "<group>";
+		};
+		A693FEF12A4AB9F100AB74D3 /* BirdPage */ = {
+			isa = PBXGroup;
+			children = (
+				A677C8DC2A46AD7D003B3796 /* BirdPage.swift */,
+				A677C8DA2A46AD02003B3796 /* CollectionViewCell8.swift */,
+			);
+			path = BirdPage;
+			sourceTree = "<group>";
+		};
+		A693FEF22A4ABA7800AB74D3 /* ShapPage */ = {
 			isa = PBXGroup;
 			children = (
 				A677C8E02A46C155003B3796 /* CollectionViewCell9.swift */,
 				A677C8DE2A46C0CB003B3796 /* ShapPage.swift */,
+			);
+			path = ShapPage;
+			sourceTree = "<group>";
+		};
+		A6CF93C22A40215F00153664 = {
+			isa = PBXGroup;
+			children = (
 				A6CF93CD2A40215F00153664 /* Kids Gane */,
 				A6CF93CC2A40215F00153664 /* Products */,
 			);
@@ -94,23 +164,17 @@
 			children = (
 				A6CF93CE2A40215F00153664 /* AppDelegate.swift */,
 				A6CF93D02A40215F00153664 /* SceneDelegate.swift */,
-				A658F9512A4184370044D503 /* ViewController3.swift */,
-				A623EF562A42DC0300B54E7B /* AnimalPage.swift */,
-				A658F94D2A417FFB0044D503 /* CollectionViewCell2.swift */,
 				A6CF93D22A40215F00153664 /* ViewController.swift */,
-				A623EF502A42D8A100B54E7B /* CollectionViewCell5.swift */,
-				A623EF582A42DC9500B54E7B /* FruitPage.swift */,
-				A6F60CEB2A45791900A7F0AE /* CollectionViewCell7.swift */,
-				A623EF4C2A42CE9200B54E7B /* CollectionViewCell.swift */,
+				A693FEF02A4AB9DE00AB74D3 /* FruitPage */,
+				A693FEEF2A4AB9C200AB74D3 /* AnimalPage */,
 				A6CF93D42A40215F00153664 /* Main.storyboard */,
-				A677C8DC2A46AD7D003B3796 /* BirdPage.swift */,
-				A677C8DA2A46AD02003B3796 /* CollectionViewCell8.swift */,
-				A623EF5A2A42EC4900B54E7B /* CollectionViewCell6.swift */,
-				A623EF542A42D90D00B54E7B /* SelectMode.swift */,
+				A693FEF12A4AB9F100AB74D3 /* BirdPage */,
+				A693FEEB2A4AB91900AB74D3 /* SelectMode */,
 				A623EF4E2A42CEBD00B54E7B /* CollectionViewCell4.swift */,
-				A658F9552A4188DA0044D503 /* CollectionViewCell3.swift */,
-				A658F9532A41888F0044D503 /* vegetablespage.swift */,
-				A6CF93E42A40301600153664 /* PlayGame.swift */,
+				A693FEF22A4ABA7800AB74D3 /* ShapPage */,
+				A693FEED2A4AB97500AB74D3 /* NumaricPage */,
+				A693FEEE2A4AB9A600AB74D3 /* VegetablesPage */,
+				A693FEEC2A4AB94900AB74D3 /* AlphabetPage */,
 				A6CF93D72A40216000153664 /* Assets.xcassets */,
 				A6CF93D92A40216000153664 /* LaunchScreen.storyboard */,
 				A6CF93DC2A40216000153664 /* Info.plist */,

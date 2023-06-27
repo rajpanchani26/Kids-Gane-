@@ -333,7 +333,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cv" destination="D7e-ef-VZf" id="2iz-Jr-uCS"/>
+                        <outlet property="numaricCollectionView" destination="D7e-ef-VZf" id="3mo-zo-sCD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3a-bC-CN6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -413,7 +413,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cv" destination="0BU-XH-lGy" id="T0c-wJ-vya"/>
+                        <outlet property="vegetableCollectionView" destination="0BU-XH-lGy" id="3eE-zW-rDY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EcM-ns-gFT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -493,7 +493,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cv" destination="gxj-Ob-ksI" id="FsN-lN-6Hq"/>
+                        <outlet property="animalCollectionView" destination="gxj-Ob-ksI" id="nhH-Lk-G1y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zry-IZ-1Zx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -573,7 +573,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cv" destination="K5F-Hj-56s" id="hIw-IE-Kgf"/>
+                        <outlet property="fruitCollectionView" destination="K5F-Hj-56s" id="hIw-IE-Kgf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="foo-on-TSh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -653,7 +653,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cv" destination="Myh-yQ-zRG" id="jTb-kY-mQB"/>
+                        <outlet property="birdCollectionView" destination="Myh-yQ-zRG" id="jTb-kY-mQB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Xc-qU-HqR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

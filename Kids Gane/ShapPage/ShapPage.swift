@@ -8,18 +8,23 @@
 import UIKit
 import AVFoundation
 
-class ShapPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
-   
-
-    @IBOutlet weak var cv: UICollectionView!
-    var img = [UIImage(named:"s-1"),UIImage(named:"s-2"),UIImage(named:"s-3"),UIImage(named:"s-4"),UIImage(named:"s-5"),UIImage(named:"s-6"),UIImage(named:"s-7"),UIImage(named:"s-8"),UIImage(named:"s-9"),UIImage(named:"s-10")]
+class ShapPage: UIViewController{
+    
+    var img = [UIImage(named:"s-11"),UIImage(named:"s-12"),UIImage(named:"s-13"),UIImage(named:"s-14"),UIImage(named:"s-15"),UIImage(named:"s-16"),UIImage(named:"s-17"),UIImage(named:"s-18"),UIImage(named:"s-19"),UIImage(named:"s-20")]
     var synth = AVSpeechSynthesizer()
+    
+    @IBOutlet weak var cv: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
+    
+}
+
+// MARK = SHAPE COLLECTION VIEW
+
+extension ShapPage: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout
+{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return img.count
     }
@@ -77,8 +82,6 @@ class ShapPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         {
             voice(voice:"Diamond")
         }
-        
-        
     }
     func voice(voice:String)
     {
@@ -86,8 +89,4 @@ class ShapPage: UIViewController,UICollectionViewDelegate,UICollectionViewDataSo
         synth.speak(myUtterance1)
         myUtterance1.rate = 0.3
     }
-    
-    
-
-
 }
