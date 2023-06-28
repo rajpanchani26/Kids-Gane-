@@ -9,12 +9,12 @@ import UIKit
 import AVFoundation
 
 class PlayGame: UIViewController{
-    
-    @IBOutlet weak var cb: UICollectionView!
     var synth = AVSpeechSynthesizer()
     var img = [UIImage(named:"a"),UIImage(named:"b"),UIImage(named:"c"),UIImage(named:"d"),UIImage(named:"e"),UIImage(named:"f"),UIImage(named:"g"),UIImage(named:"h"),UIImage(named:"i"),UIImage(named:"j"),UIImage(named:"k"),UIImage(named:"l"),UIImage(named:"m"),UIImage(named:"n"),UIImage(named:"o"),UIImage(named:"p"),UIImage(named:"q"),UIImage(named:"r"),UIImage(named:"s"),UIImage(named:"t"),UIImage(named:"u"),UIImage(named:"v"),UIImage(named:"w"),UIImage(named:"x"),UIImage(named:"y"),UIImage(named:"z")]
     var name = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
     var alphabetName = ["Apple","Ball","Cat","Dog","Elephant","Fox","Giraffe","Horse","Ice-Creme","Jug","Kite","Lion","Mango","Neast","Orange","Parrot","Queen","Rose","Sun","Tiger","Umbrella","Van","Watch","X-Tree","Yark","Zibra"]
+    
+    @IBOutlet weak var alplabetCollectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,7 @@ class PlayGame: UIViewController{
 }
 
 // MARK = ALPHABET COLLECTION VIEW
+
 extension PlayGame: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout
 {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -30,7 +31,7 @@ extension PlayGame: UICollectionViewDelegate,UICollectionViewDataSource,UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = cb.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
+        let cell = alplabetCollectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         cell.img.image = img[indexPath.row]
         cell.nameLabel.text = name[indexPath.row]
         cell.alphabetName.text = alphabetName[indexPath.row]

@@ -253,7 +253,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="cb" destination="yWz-bc-GaL" id="Ymc-Nm-ZV6"/>
+                        <outlet property="alplabetCollectionView" destination="yWz-bc-GaL" id="Ymc-Nm-ZV6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2yQ-OT-Yn9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
