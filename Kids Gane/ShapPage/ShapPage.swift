@@ -10,7 +10,8 @@ import AVFoundation
 
 class ShapPage: UIViewController{
     
-    var img = [UIImage(named:"s-11"),UIImage(named:"s-12"),UIImage(named:"s-13"),UIImage(named:"s-14"),UIImage(named:"s-15"),UIImage(named:"s-16"),UIImage(named:"s-17"),UIImage(named:"s-18"),UIImage(named:"s-19"),UIImage(named:"s-20")]
+    var img =  [UIImage(named:"s-1"),UIImage(named:"s-2"),UIImage(named:"s-3"),UIImage(named:"s-4"),UIImage(named:"s-5"),UIImage(named:"s-6"),UIImage(named:"s-7"),UIImage(named:"s-8"),UIImage(named:"s-9"),UIImage(named:"s-10"),UIImage(named:"s-11"),UIImage(named:"s-12"),UIImage(named:"s-13"),]
+    var name = ["Circle","Triangle","Rectangle","Oval","Heart","Square","Pentagon","Heptagon","Right Triangle","Star","Cube","Cone","Cylinder"]
     var synth = AVSpeechSynthesizer()
     
     @IBOutlet weak var cv: UICollectionView!
@@ -33,13 +34,14 @@ extension ShapPage: UICollectionViewDelegate,UICollectionViewDataSource,UICollec
         let cell = cv.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell9
         cell.img.image = img[indexPath.row]
         cell.layer.borderColor = UIColor.gray.cgColor
+        cell.namelabel.text = name[indexPath.row]
         cell.layer.borderWidth = 3
         cell.layer.cornerRadius = 10
         cell.layer.masksToBounds = true
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize (width: 166, height: 170)
+        return CGSize (width: 166, height: 228)
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == 0
@@ -52,7 +54,7 @@ extension ShapPage: UICollectionViewDelegate,UICollectionViewDataSource,UICollec
         }
         else  if indexPath.row == 2
         {
-            voice(voice:"Pentagon")
+            voice(voice:"Rectangle")
         }
         else  if indexPath.row == 3
         {
@@ -60,27 +62,39 @@ extension ShapPage: UICollectionViewDelegate,UICollectionViewDataSource,UICollec
         }
         else  if indexPath.row == 4
         {
-            voice(voice:"Square")
+            voice(voice:"Heart")
         }
         else  if indexPath.row == 5
         {
-            voice(voice:"Rentagle")
+            voice(voice:"Square")
         }
         else if indexPath.row == 6
         {
-            voice(voice: "Crescent")
+            voice(voice: "Pentagon")
         }
         else if indexPath.row == 7
         {
-            voice(voice: "Star")
+            voice(voice: "Heptagon")
         }
         else if indexPath.row == 8
         {
-            voice(voice: "Heart")
+            voice(voice: "Right Triangle")
+        }
+        else if indexPath.row == 9
+        {
+            voice(voice:"Star")
+        }
+        else if indexPath.row == 10
+        {
+            voice(voice:"Cube")
+        }
+        else if indexPath.row == 11
+        {
+            voice(voice:"Cone")
         }
         else
         {
-            voice(voice:"Diamond")
+            voice(voice:"Cylinder")
         }
     }
     func voice(voice:String)

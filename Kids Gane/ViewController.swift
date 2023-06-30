@@ -13,7 +13,7 @@ class ViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        playButton.layer.cornerRadius = 20
+        playButton.layer.cornerRadius = 30
         playButton.layer.masksToBounds = true
     }
    
