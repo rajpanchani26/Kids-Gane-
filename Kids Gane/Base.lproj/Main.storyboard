@@ -43,10 +43,8 @@
                                     <constraint firstAttribute="height" constant="65" id="XdK-1O-TKf"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Play">
-                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
-                                    <color key="baseForegroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <buttonConfiguration key="configuration" style="gray" image="3 1">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="playButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jh1-gE-yye"/>
@@ -786,6 +784,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="3 1" width="181" height="93"/>
         <image name="kidsgame" width="288" height="403"/>
         <image name="logo" width="466" height="490"/>
         <systemColor name="systemBackgroundColor">

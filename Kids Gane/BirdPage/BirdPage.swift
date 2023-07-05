@@ -22,7 +22,7 @@ class BirdPage: UIViewController{
     }
 }
 
-// MARK BIRD COLLECTION VIEW
+// MARK = BIRD COLLECTION VIEW
 
 extension BirdPage: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout
 {

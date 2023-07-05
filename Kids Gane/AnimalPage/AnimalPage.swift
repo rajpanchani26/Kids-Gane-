@@ -23,6 +23,9 @@ class AnimalPage: UIViewController{
     }
 
 }
+
+// MARK = ANIMAL COLLECTIONVIEW
+
 extension AnimalPage: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout
 {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
